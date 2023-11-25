@@ -1,7 +1,7 @@
 variable lambda_function_name {
     description     = "Name of lambda function"
     type            = string
-    default         = "luqman-package-scan-lambda-fn"
+    default         = "emmanuel-package-scan-lambda-fn"
 }
 
 variable lambda_file_name {
