@@ -122,7 +122,7 @@ jobs:
 
     steps:
       - name: Pause 2min to verify lambda creation and test
-        run: sleep 120
+        run: sleep 600
 
   terraform-destroy:
     needs: terraform-wait
